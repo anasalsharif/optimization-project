@@ -1,0 +1,37 @@
+Please use these active links to download the Schneider (2014) 100-customer benchmark instances (like C101, R101):
+- Option 1 (Direct Download): http://web.unw.uni-mainz.de/evrptw/ (Download 'Instances' zip file)
+- Option 2 (GitHub Alternative): https://github.com/S-Sajid-Ali/EVRPTW-Solver (Files are in data/instances folder)
+
+Here is the exact logic and dataset parameters you need to write the Python data parser script:
+
+1. Global Variables to Extract:
+- Q: Max Battery Capacity (e.g., 77.75)
+- C: Max Vehicle Cargo Capacity (e.g., 200)
+- Consumption Rate: Constant (1.0 per unit distance)
+
+2. Node Data to Read:
+- Node ID & Type: Depot 'd', Customer 'c', Charging Station 'f'
+- X, Y Coordinates (To calculate Euclidean Distance)
+- Demand: Cargo amount per customer
+- Time Windows: Ready Time [e_i] and Due Time [l_i]
+
+3. Hard Rules (Code Logic):
+- Capacity Check: Total customer demand on a route cannot exceed 'C'.
+- Battery Check: Remaining Battery - (Distance * 1.0) must be >= 0. If violated, code must insert a charging station 'f'.
+- Time Window Check: Arrival Time at a customer must be <= Due Time [l_i]. If vehicle arrives before Ready Time [e_i], it must wait.
+- Partial Recharge Rule: Vehicles don't need 100% full charge; they can charge just enough to reach the next stop.
+- Charger Configurations: Stations have 3 modes: Normal (slow, cheap), Fast (medium), Super-Fast (very fast, expensive).
+
+Immediate Task: Please write the script to parse these text files into structured arrays/dataframes and plot a quick 2D map using matplotlib to verify the grid setup. While you handle the data import script, I am working on the cost-time curve formulas for the 3 charger types to plug into the ALNS loop later.
+
+Let me know once the data parsing is successful and ready so we can move forward!
+
+https://pypi.org/
+
+Guys, inside vrplib we need to load the Schneider 2014 instances for EVRPTW with 100 customers. The naming convention for these files:
+
+C101_21, C102_21, C103_21...
+R101_21, R102_21, R103_21...
+RC101_21, RC102_21, RC103_21...
+
+21 means recharging stations, which is exactly what Paper 14 uses
