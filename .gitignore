@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# Local virtual environments
+.venv/
+venv/
+
+# Temporary editor files
+*.tmp
+*.temp
+~$*
+
+# Duplicate source materials kept under docs/
+/ENS001 Project Report Template.docx
+/ENS001_Project_Booklet.docx
+/MEREC_AROMAN_Sustainability_Assessment_Tool_A_Deep_Dive_into_Software 5.pptx
+/Paper-14.pdf
+/TEAM29.docx

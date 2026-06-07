@@ -1,0 +1,5 @@
+instance_name,feasible,vehicles_used,total_distance,total_energy_cost,total_charging_time,runtime_seconds,unserved_count
+c101C5,True,2,295.61,141.915,434.757,0.0009,0
+c101_21,True,15,3479.555,2712.356,1369.946,0.5317,0
+r101_21,True,22,2459.986,1362.88,415.232,0.4498,0
+rc103_21,True,23,3343.102,1858.067,452.315,0.5282,0

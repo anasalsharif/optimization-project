@@ -1,0 +1,2272 @@
+{
+  "instance_name": "rc103_21",
+  "feasible": true,
+  "vehicles_used": 23,
+  "total_distance": 3343.102,
+  "total_energy_cost": 1858.067,
+  "total_charging_time": 452.315,
+  "runtime_seconds": 0.5282,
+  "routes": [
+    {
+      "route_id": 1,
+      "distance": 146.48171075815353,
+      "demand_served": 123.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C69",
+          "node_type": "customer",
+          "arrival_time": 9.22,
+          "departure_time": 20.0,
+          "battery_after": 70.47,
+          "load_used": 27.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C66",
+          "node_type": "customer",
+          "arrival_time": 38.028,
+          "departure_time": 48.028,
+          "battery_after": 52.443,
+          "load_used": 43.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C65",
+          "node_type": "customer",
+          "arrival_time": 54.736,
+          "departure_time": 64.736,
+          "battery_after": 45.734,
+          "load_used": 59.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C99",
+          "node_type": "customer",
+          "arrival_time": 75.032,
+          "departure_time": 85.032,
+          "battery_after": 35.439,
+          "load_used": 74.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C88",
+          "node_type": "customer",
+          "arrival_time": 108.118,
+          "departure_time": 118.118,
+          "battery_after": 12.352,
+          "load_used": 93.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S9",
+          "node_type": "station",
+          "arrival_time": 124.118,
+          "departure_time": 129.9,
+          "battery_after": 27.0,
+          "load_used": 93.0,
+          "recharge": {
+            "charge_added": 20.648,
+            "charger_mode": "super_fast",
+            "charging_time": 5.781,
+            "charging_cost": 24.778
+          }
+        },
+        {
+          "node_id": "C46",
+          "node_type": "customer",
+          "arrival_time": 151.9,
+          "departure_time": 161.9,
+          "battery_after": 5.0,
+          "load_used": 103.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S7",
+          "node_type": "station",
+          "arrival_time": 166.9,
+          "departure_time": 170.165,
+          "battery_after": 11.662,
+          "load_used": 103.0,
+          "recharge": {
+            "charge_added": 11.662,
+            "charger_mode": "super_fast",
+            "charging_time": 3.265,
+            "charging_cost": 13.994
+          }
+        },
+        {
+          "node_id": "C5",
+          "node_type": "customer",
+          "arrival_time": 175.996,
+          "departure_time": 185.996,
+          "battery_after": 5.831,
+          "load_used": 123.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S7",
+          "node_type": "station",
+          "arrival_time": 191.827,
+          "departure_time": 201.482,
+          "battery_after": 34.482,
+          "load_used": 123.0,
+          "recharge": {
+            "charge_added": 34.482,
+            "charger_mode": "super_fast",
+            "charging_time": 9.655,
+            "charging_cost": 41.378
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 235.964,
+          "departure_time": 235.964,
+          "battery_after": 0.0,
+          "load_used": 123.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 2,
+      "distance": 168.96238024292833,
+      "demand_served": 126.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C57",
+          "node_type": "customer",
+          "arrival_time": 26.926,
+          "departure_time": 37.0,
+          "battery_after": 52.764,
+          "load_used": 23.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C76",
+          "node_type": "customer",
+          "arrival_time": 69.696,
+          "departure_time": 79.696,
+          "battery_after": 20.069,
+          "load_used": 54.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C85",
+          "node_type": "customer",
+          "arrival_time": 91.097,
+          "departure_time": 101.097,
+          "battery_after": 8.667,
+          "load_used": 56.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S17",
+          "node_type": "station",
+          "arrival_time": 108.308,
+          "departure_time": 114.713,
+          "battery_after": 24.328,
+          "load_used": 56.0,
+          "recharge": {
+            "charge_added": 22.873,
+            "charger_mode": "super_fast",
+            "charging_time": 6.404,
+            "charging_cost": 27.447
+          }
+        },
+        {
+          "node_id": "C20",
+          "node_type": "customer",
+          "arrival_time": 131.83,
+          "departure_time": 141.83,
+          "battery_after": 7.211,
+          "load_used": 66.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S16",
+          "node_type": "station",
+          "arrival_time": 149.041,
+          "departure_time": 153.079,
+          "battery_after": 14.422,
+          "load_used": 66.0,
+          "recharge": {
+            "charge_added": 14.422,
+            "charger_mode": "super_fast",
+            "charging_time": 4.038,
+            "charging_cost": 17.307
+          }
+        },
+        {
+          "node_id": "C18",
+          "node_type": "customer",
+          "arrival_time": 160.29,
+          "departure_time": 170.29,
+          "battery_after": 7.211,
+          "load_used": 86.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S16",
+          "node_type": "station",
+          "arrival_time": 177.502,
+          "departure_time": 180.908,
+          "battery_after": 12.166,
+          "load_used": 86.0,
+          "recharge": {
+            "charge_added": 12.166,
+            "charger_mode": "super_fast",
+            "charging_time": 3.406,
+            "charging_cost": 14.599
+          }
+        },
+        {
+          "node_id": "C19",
+          "node_type": "customer",
+          "arrival_time": 186.991,
+          "departure_time": 196.991,
+          "battery_after": 6.083,
+          "load_used": 126.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S16",
+          "node_type": "station",
+          "arrival_time": 203.073,
+          "departure_time": 214.221,
+          "battery_after": 39.812,
+          "load_used": 126.0,
+          "recharge": {
+            "charge_added": 39.812,
+            "charger_mode": "super_fast",
+            "charging_time": 11.147,
+            "charging_cost": 47.774
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 254.033,
+          "departure_time": 254.033,
+          "battery_after": 0.0,
+          "load_used": 126.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 3,
+      "distance": 129.9916592788817,
+      "demand_served": 180.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C42",
+          "node_type": "customer",
+          "arrival_time": 33.541,
+          "departure_time": 44.0,
+          "battery_after": 46.149,
+          "load_used": 10.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C44",
+          "node_type": "customer",
+          "arrival_time": 46.0,
+          "departure_time": 56.0,
+          "battery_after": 44.149,
+          "load_used": 20.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C37",
+          "node_type": "customer",
+          "arrival_time": 66.0,
+          "departure_time": 76.0,
+          "battery_after": 34.149,
+          "load_used": 30.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C36",
+          "node_type": "customer",
+          "arrival_time": 79.0,
+          "departure_time": 89.0,
+          "battery_after": 31.149,
+          "load_used": 70.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C38",
+          "node_type": "customer",
+          "arrival_time": 94.831,
+          "departure_time": 104.831,
+          "battery_after": 25.318,
+          "load_used": 100.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C39",
+          "node_type": "customer",
+          "arrival_time": 106.831,
+          "departure_time": 116.831,
+          "battery_after": 23.318,
+          "load_used": 110.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C41",
+          "node_type": "customer",
+          "arrival_time": 122.216,
+          "departure_time": 132.216,
+          "battery_after": 17.933,
+          "load_used": 130.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C35",
+          "node_type": "customer",
+          "arrival_time": 145.67,
+          "departure_time": 155.67,
+          "battery_after": 4.479,
+          "load_used": 150.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S4",
+          "node_type": "station",
+          "arrival_time": 160.142,
+          "departure_time": 165.084,
+          "battery_after": 17.659,
+          "load_used": 150.0,
+          "recharge": {
+            "charge_added": 17.652,
+            "charger_mode": "super_fast",
+            "charging_time": 4.943,
+            "charging_cost": 21.182
+          }
+        },
+        {
+          "node_id": "C40",
+          "node_type": "customer",
+          "arrival_time": 174.933,
+          "departure_time": 184.933,
+          "battery_after": 7.81,
+          "load_used": 180.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S3",
+          "node_type": "station",
+          "arrival_time": 192.744,
+          "departure_time": 201.885,
+          "battery_after": 32.65,
+          "load_used": 180.0,
+          "recharge": {
+            "charge_added": 32.65,
+            "charger_mode": "super_fast",
+            "charging_time": 9.142,
+            "charging_cost": 39.18
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 234.535,
+          "departure_time": 234.535,
+          "battery_after": 0.0,
+          "load_used": 180.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 4,
+      "distance": 136.80386539115958,
+      "demand_served": 72.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C71",
+          "node_type": "customer",
+          "arrival_time": 25.495,
+          "departure_time": 60.0,
+          "battery_after": 54.195,
+          "load_used": 14.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C64",
+          "node_type": "customer",
+          "arrival_time": 92.016,
+          "departure_time": 102.016,
+          "battery_after": 22.179,
+          "load_used": 31.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S15",
+          "node_type": "station",
+          "arrival_time": 108.098,
+          "departure_time": 110.046,
+          "battery_after": 23.053,
+          "load_used": 31.0,
+          "recharge": {
+            "charge_added": 6.957,
+            "charger_mode": "super_fast",
+            "charging_time": 1.948,
+            "charging_cost": 8.348
+          }
+        },
+        {
+          "node_id": "C82",
+          "node_type": "customer",
+          "arrival_time": 127.017,
+          "departure_time": 137.017,
+          "battery_after": 6.083,
+          "load_used": 40.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S13",
+          "node_type": "station",
+          "arrival_time": 143.1,
+          "departure_time": 148.45,
+          "battery_after": 19.109,
+          "load_used": 40.0,
+          "recharge": {
+            "charge_added": 19.109,
+            "charger_mode": "super_fast",
+            "charging_time": 5.35,
+            "charging_cost": 22.93
+          }
+        },
+        {
+          "node_id": "C90",
+          "node_type": "customer",
+          "arrival_time": 163.316,
+          "departure_time": 173.316,
+          "battery_after": 4.243,
+          "load_used": 46.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S0",
+          "node_type": "station",
+          "arrival_time": 177.559,
+          "departure_time": 186.252,
+          "battery_after": 31.048,
+          "load_used": 46.0,
+          "recharge": {
+            "charge_added": 31.048,
+            "charger_mode": "super_fast",
+            "charging_time": 8.694,
+            "charging_cost": 37.258
+          }
+        },
+        {
+          "node_id": "C96",
+          "node_type": "customer",
+          "arrival_time": 201.776,
+          "departure_time": 211.776,
+          "battery_after": 15.524,
+          "load_used": 72.0,
+          "recharge": null
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 227.301,
+          "departure_time": 227.301,
+          "battery_after": 0.0,
+          "load_used": 72.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 5,
+      "distance": 173.39947070855163,
+      "demand_served": 120.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C79",
+          "node_type": "customer",
+          "arrival_time": 38.471,
+          "departure_time": 63.0,
+          "battery_after": 41.219,
+          "load_used": 30.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C4",
+          "node_type": "customer",
+          "arrival_time": 81.439,
+          "departure_time": 91.439,
+          "battery_after": 22.78,
+          "load_used": 70.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C8",
+          "node_type": "customer",
+          "arrival_time": 96.439,
+          "departure_time": 106.439,
+          "battery_after": 17.78,
+          "load_used": 80.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C7",
+          "node_type": "customer",
+          "arrival_time": 111.439,
+          "departure_time": 121.439,
+          "battery_after": 12.78,
+          "load_used": 100.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S7",
+          "node_type": "station",
+          "arrival_time": 130.873,
+          "departure_time": 144.071,
+          "battery_after": 50.483,
+          "load_used": 100.0,
+          "recharge": {
+            "charge_added": 47.137,
+            "charger_mode": "super_fast",
+            "charging_time": 13.198,
+            "charging_cost": 56.564
+          }
+        },
+        {
+          "node_id": "C17",
+          "node_type": "customer",
+          "arrival_time": 185.952,
+          "departure_time": 195.952,
+          "battery_after": 8.602,
+          "load_used": 120.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S12",
+          "node_type": "station",
+          "arrival_time": 204.555,
+          "departure_time": 217.595,
+          "battery_after": 46.573,
+          "load_used": 120.0,
+          "recharge": {
+            "charge_added": 46.573,
+            "charger_mode": "super_fast",
+            "charging_time": 13.04,
+            "charging_cost": 55.887
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 264.167,
+          "departure_time": 264.167,
+          "battery_after": 0.0,
+          "load_used": 120.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 6,
+      "distance": 148.7769426146113,
+      "demand_served": 61.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C52",
+          "node_type": "customer",
+          "arrival_time": 25.0,
+          "departure_time": 68.0,
+          "battery_after": 54.69,
+          "load_used": 3.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C87",
+          "node_type": "customer",
+          "arrival_time": 82.318,
+          "departure_time": 92.318,
+          "battery_after": 40.372,
+          "load_used": 16.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C77",
+          "node_type": "customer",
+          "arrival_time": 116.024,
+          "departure_time": 126.024,
+          "battery_after": 16.666,
+          "load_used": 23.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S14",
+          "node_type": "station",
+          "arrival_time": 137.205,
+          "departure_time": 142.296,
+          "battery_after": 23.669,
+          "load_used": 23.0,
+          "recharge": {
+            "charge_added": 18.183,
+            "charger_mode": "super_fast",
+            "charging_time": 5.091,
+            "charging_cost": 21.82
+          }
+        },
+        {
+          "node_id": "C86",
+          "node_type": "customer",
+          "arrival_time": 155.334,
+          "departure_time": 165.334,
+          "battery_after": 10.63,
+          "load_used": 51.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S11",
+          "node_type": "station",
+          "arrival_time": 175.965,
+          "departure_time": 180.973,
+          "battery_after": 17.889,
+          "load_used": 51.0,
+          "recharge": {
+            "charge_added": 17.889,
+            "charger_mode": "super_fast",
+            "charging_time": 5.009,
+            "charging_cost": 21.466
+          }
+        },
+        {
+          "node_id": "C13",
+          "node_type": "customer",
+          "arrival_time": 189.918,
+          "departure_time": 199.918,
+          "battery_after": 8.944,
+          "load_used": 61.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S11",
+          "node_type": "station",
+          "arrival_time": 208.862,
+          "departure_time": 218.106,
+          "battery_after": 33.015,
+          "load_used": 61.0,
+          "recharge": {
+            "charge_added": 33.015,
+            "charger_mode": "super_fast",
+            "charging_time": 9.244,
+            "charging_cost": 39.618
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 251.121,
+          "departure_time": 251.121,
+          "battery_after": 0.0,
+          "load_used": 61.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 7,
+      "distance": 126.02029677023584,
+      "demand_served": 76.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C84",
+          "node_type": "customer",
+          "arrival_time": 27.019,
+          "departure_time": 83.0,
+          "battery_after": 52.671,
+          "load_used": 18.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C91",
+          "node_type": "customer",
+          "arrival_time": 98.264,
+          "departure_time": 108.264,
+          "battery_after": 37.407,
+          "load_used": 31.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C68",
+          "node_type": "customer",
+          "arrival_time": 128.389,
+          "departure_time": 138.389,
+          "battery_after": 17.283,
+          "load_used": 52.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S0",
+          "node_type": "station",
+          "arrival_time": 148.389,
+          "departure_time": 154.618,
+          "battery_after": 29.53,
+          "load_used": 52.0,
+          "recharge": {
+            "charge_added": 22.247,
+            "charger_mode": "super_fast",
+            "charging_time": 6.229,
+            "charging_cost": 26.697
+          }
+        },
+        {
+          "node_id": "C92",
+          "node_type": "customer",
+          "arrival_time": 169.383,
+          "departure_time": 179.383,
+          "battery_after": 14.765,
+          "load_used": 66.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S0",
+          "node_type": "station",
+          "arrival_time": 194.148,
+          "departure_time": 200.891,
+          "battery_after": 24.083,
+          "load_used": 66.0,
+          "recharge": {
+            "charge_added": 24.083,
+            "charger_mode": "super_fast",
+            "charging_time": 6.743,
+            "charging_cost": 28.9
+          }
+        },
+        {
+          "node_id": "C81",
+          "node_type": "customer",
+          "arrival_time": 212.933,
+          "departure_time": 222.933,
+          "battery_after": 12.042,
+          "load_used": 76.0,
+          "recharge": null
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 234.974,
+          "departure_time": 234.974,
+          "battery_after": 0.0,
+          "load_used": 76.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 8,
+      "distance": 137.80710217114947,
+      "demand_served": 87.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C78",
+          "node_type": "customer",
+          "arrival_time": 32.558,
+          "departure_time": 87.0,
+          "battery_after": 47.132,
+          "load_used": 27.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C73",
+          "node_type": "customer",
+          "arrival_time": 94.211,
+          "departure_time": 105.0,
+          "battery_after": 39.921,
+          "load_used": 32.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C15",
+          "node_type": "customer",
+          "arrival_time": 125.0,
+          "departure_time": 135.0,
+          "battery_after": 19.921,
+          "load_used": 52.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S12",
+          "node_type": "station",
+          "arrival_time": 142.28,
+          "departure_time": 149.309,
+          "battery_after": 37.743,
+          "load_used": 52.0,
+          "recharge": {
+            "charge_added": 25.102,
+            "charger_mode": "super_fast",
+            "charging_time": 7.029,
+            "charging_cost": 30.122
+          }
+        },
+        {
+          "node_id": "C97",
+          "node_type": "customer",
+          "arrival_time": 171.24,
+          "departure_time": 181.24,
+          "battery_after": 15.811,
+          "load_used": 87.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S11",
+          "node_type": "station",
+          "arrival_time": 197.052,
+          "departure_time": 206.296,
+          "battery_after": 33.015,
+          "load_used": 87.0,
+          "recharge": {
+            "charge_added": 33.015,
+            "charger_mode": "super_fast",
+            "charging_time": 9.244,
+            "charging_cost": 39.618
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 239.311,
+          "departure_time": 239.311,
+          "battery_after": 0.0,
+          "load_used": 87.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 9,
+      "distance": 129.39819028206267,
+      "demand_served": 38.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C72",
+          "node_type": "customer",
+          "arrival_time": 27.459,
+          "departure_time": 116.0,
+          "battery_after": 52.231,
+          "load_used": 8.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C29",
+          "node_type": "customer",
+          "arrival_time": 156.361,
+          "departure_time": 166.361,
+          "battery_after": 11.87,
+          "load_used": 18.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C31",
+          "node_type": "customer",
+          "arrival_time": 168.361,
+          "departure_time": 178.361,
+          "battery_after": 9.87,
+          "load_used": 38.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S20",
+          "node_type": "station",
+          "arrival_time": 187.58,
+          "departure_time": 201.499,
+          "battery_after": 50.359,
+          "load_used": 38.0,
+          "recharge": {
+            "charge_added": 49.708,
+            "charger_mode": "super_fast",
+            "charging_time": 13.918,
+            "charging_cost": 59.65
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 251.857,
+          "departure_time": 251.857,
+          "battery_after": 0.0,
+          "load_used": 38.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 10,
+      "distance": 122.84193479051568,
+      "demand_served": 54.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C12",
+          "node_type": "customer",
+          "arrival_time": 32.388,
+          "departure_time": 121.0,
+          "battery_after": 47.302,
+          "load_used": 20.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S11",
+          "node_type": "station",
+          "arrival_time": 135.866,
+          "departure_time": 136.426,
+          "battery_after": 34.437,
+          "load_used": 20.0,
+          "recharge": {
+            "charge_added": 2.001,
+            "charger_mode": "super_fast",
+            "charging_time": 0.56,
+            "charging_cost": 2.401
+          }
+        },
+        {
+          "node_id": "C58",
+          "node_type": "customer",
+          "arrival_time": 157.521,
+          "departure_time": 167.521,
+          "battery_after": 13.342,
+          "load_used": 40.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S14",
+          "node_type": "station",
+          "arrival_time": 180.863,
+          "departure_time": 187.058,
+          "battery_after": 22.125,
+          "load_used": 40.0,
+          "recharge": {
+            "charge_added": 22.125,
+            "charger_mode": "super_fast",
+            "charging_time": 6.195,
+            "charging_cost": 26.55
+          }
+        },
+        {
+          "node_id": "C83",
+          "node_type": "customer",
+          "arrival_time": 207.183,
+          "departure_time": 217.183,
+          "battery_after": 2.0,
+          "load_used": 54.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S15",
+          "node_type": "station",
+          "arrival_time": 219.183,
+          "departure_time": 224.51,
+          "battery_after": 19.026,
+          "load_used": 54.0,
+          "recharge": {
+            "charge_added": 19.026,
+            "charger_mode": "super_fast",
+            "charging_time": 5.327,
+            "charging_cost": 22.832
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 243.536,
+          "departure_time": 243.536,
+          "battery_after": 0.0,
+          "load_used": 54.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 11,
+      "distance": 187.46141988728692,
+      "demand_served": 47.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S13",
+          "node_type": "station",
+          "arrival_time": 19.105,
+          "departure_time": 19.677,
+          "battery_after": 62.627,
+          "load_used": 0.0,
+          "recharge": {
+            "charge_added": 2.042,
+            "charger_mode": "super_fast",
+            "charging_time": 0.572,
+            "charging_cost": 2.45
+          }
+        },
+        {
+          "node_id": "C75",
+          "node_type": "customer",
+          "arrival_time": 57.952,
+          "departure_time": 67.952,
+          "battery_after": 24.352,
+          "load_used": 16.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S14",
+          "node_type": "station",
+          "arrival_time": 92.304,
+          "departure_time": 107.489,
+          "battery_after": 54.234,
+          "load_used": 16.0,
+          "recharge": {
+            "charge_added": 54.234,
+            "charger_mode": "super_fast",
+            "charging_time": 15.186,
+            "charging_cost": 65.081
+          }
+        },
+        {
+          "node_id": "C89",
+          "node_type": "customer",
+          "arrival_time": 147.301,
+          "departure_time": 157.301,
+          "battery_after": 14.422,
+          "load_used": 41.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S17",
+          "node_type": "station",
+          "arrival_time": 171.723,
+          "departure_time": 175.48,
+          "battery_after": 13.416,
+          "load_used": 41.0,
+          "recharge": {
+            "charge_added": 13.416,
+            "charger_mode": "super_fast",
+            "charging_time": 3.757,
+            "charging_cost": 16.1
+          }
+        },
+        {
+          "node_id": "C63",
+          "node_type": "customer",
+          "arrival_time": 182.188,
+          "departure_time": 192.188,
+          "battery_after": 6.708,
+          "load_used": 47.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S17",
+          "node_type": "station",
+          "arrival_time": 198.896,
+          "departure_time": 209.559,
+          "battery_after": 38.079,
+          "load_used": 47.0,
+          "recharge": {
+            "charge_added": 38.079,
+            "charger_mode": "super_fast",
+            "charging_time": 10.662,
+            "charging_cost": 45.695
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 247.637,
+          "departure_time": 247.637,
+          "battery_after": 0.0,
+          "load_used": 47.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 12,
+      "distance": 124.65434338904369,
+      "demand_served": 60.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C30",
+          "node_type": "customer",
+          "arrival_time": 52.0,
+          "departure_time": 139.0,
+          "battery_after": 27.69,
+          "load_used": 10.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C26",
+          "node_type": "customer",
+          "arrival_time": 146.0,
+          "departure_time": 156.0,
+          "battery_after": 20.69,
+          "load_used": 40.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C27",
+          "node_type": "customer",
+          "arrival_time": 161.0,
+          "departure_time": 171.0,
+          "battery_after": 15.69,
+          "load_used": 60.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S20",
+          "node_type": "station",
+          "arrival_time": 181.296,
+          "departure_time": 193.886,
+          "battery_after": 50.359,
+          "load_used": 60.0,
+          "recharge": {
+            "charge_added": 44.964,
+            "charger_mode": "super_fast",
+            "charging_time": 12.59,
+            "charging_cost": 53.957
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 244.244,
+          "departure_time": 244.244,
+          "battery_after": 0.0,
+          "load_used": 60.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 13,
+      "distance": 106.89695893363785,
+      "demand_served": 49.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C56",
+          "node_type": "customer",
+          "arrival_time": 18.028,
+          "departure_time": 143.0,
+          "battery_after": 61.662,
+          "load_used": 19.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C34",
+          "node_type": "customer",
+          "arrival_time": 178.0,
+          "departure_time": 188.0,
+          "battery_after": 26.662,
+          "load_used": 49.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S1",
+          "node_type": "station",
+          "arrival_time": 208.809,
+          "departure_time": 216.427,
+          "battery_after": 33.061,
+          "load_used": 49.0,
+          "recharge": {
+            "charge_added": 27.207,
+            "charger_mode": "super_fast",
+            "charging_time": 7.618,
+            "charging_cost": 32.648
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 249.487,
+          "departure_time": 249.487,
+          "battery_after": 0.0,
+          "load_used": 49.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 14,
+      "distance": 174.57400454396102,
+      "demand_served": 50.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C28",
+          "node_type": "customer",
+          "arrival_time": 55.714,
+          "departure_time": 65.714,
+          "battery_after": 23.976,
+          "load_used": 10.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C32",
+          "node_type": "customer",
+          "arrival_time": 70.714,
+          "departure_time": 80.714,
+          "battery_after": 18.976,
+          "load_used": 20.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C33",
+          "node_type": "customer",
+          "arrival_time": 86.099,
+          "departure_time": 96.099,
+          "battery_after": 13.591,
+          "load_used": 30.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S18",
+          "node_type": "station",
+          "arrival_time": 108.264,
+          "departure_time": 120.278,
+          "battery_after": 44.332,
+          "load_used": 30.0,
+          "recharge": {
+            "charge_added": 42.906,
+            "charger_mode": "super_fast",
+            "charging_time": 12.014,
+            "charging_cost": 51.488
+          }
+        },
+        {
+          "node_id": "C48",
+          "node_type": "customer",
+          "arrival_time": 156.125,
+          "departure_time": 166.125,
+          "battery_after": 8.485,
+          "load_used": 40.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S16",
+          "node_type": "station",
+          "arrival_time": 174.61,
+          "departure_time": 178.017,
+          "battery_after": 12.166,
+          "load_used": 40.0,
+          "recharge": {
+            "charge_added": 12.166,
+            "charger_mode": "super_fast",
+            "charging_time": 3.406,
+            "charging_cost": 14.599
+          }
+        },
+        {
+          "node_id": "C49",
+          "node_type": "customer",
+          "arrival_time": 184.099,
+          "departure_time": 194.099,
+          "battery_after": 6.083,
+          "load_used": 50.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S16",
+          "node_type": "station",
+          "arrival_time": 200.182,
+          "departure_time": 211.329,
+          "battery_after": 39.812,
+          "load_used": 50.0,
+          "recharge": {
+            "charge_added": 39.812,
+            "charger_mode": "super_fast",
+            "charging_time": 11.147,
+            "charging_cost": 47.774
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 251.142,
+          "departure_time": 251.142,
+          "battery_after": 0.0,
+          "load_used": 50.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 15,
+      "distance": 169.32854777764686,
+      "demand_served": 80.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C23",
+          "node_type": "customer",
+          "arrival_time": 45.044,
+          "departure_time": 55.044,
+          "battery_after": 34.646,
+          "load_used": 30.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C25",
+          "node_type": "customer",
+          "arrival_time": 58.044,
+          "departure_time": 68.044,
+          "battery_after": 31.646,
+          "load_used": 50.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S14",
+          "node_type": "station",
+          "arrival_time": 78.675,
+          "departure_time": 93.1,
+          "battery_after": 44.282,
+          "load_used": 50.0,
+          "recharge": {
+            "charge_added": 23.267,
+            "charger_mode": "fast",
+            "charging_time": 14.426,
+            "charging_cost": 25.594
+          }
+        },
+        {
+          "node_id": "C16",
+          "node_type": "customer",
+          "arrival_time": 131.997,
+          "departure_time": 164.0,
+          "battery_after": 5.385,
+          "load_used": 70.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S12",
+          "node_type": "station",
+          "arrival_time": 169.385,
+          "departure_time": 174.929,
+          "battery_after": 19.799,
+          "load_used": 70.0,
+          "recharge": {
+            "charge_added": 19.799,
+            "charger_mode": "super_fast",
+            "charging_time": 5.544,
+            "charging_cost": 23.759
+          }
+        },
+        {
+          "node_id": "C47",
+          "node_type": "customer",
+          "arrival_time": 184.828,
+          "departure_time": 194.828,
+          "battery_after": 9.899,
+          "load_used": 80.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S12",
+          "node_type": "station",
+          "arrival_time": 204.728,
+          "departure_time": 217.768,
+          "battery_after": 46.573,
+          "load_used": 80.0,
+          "recharge": {
+            "charge_added": 46.573,
+            "charger_mode": "super_fast",
+            "charging_time": 13.04,
+            "charging_cost": 55.887
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 264.341,
+          "departure_time": 264.341,
+          "battery_after": 0.0,
+          "load_used": 80.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 16,
+      "distance": 184.46292885408542,
+      "demand_served": 39.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C21",
+          "node_type": "customer",
+          "arrival_time": 45.0,
+          "departure_time": 55.0,
+          "battery_after": 34.69,
+          "load_used": 10.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S14",
+          "node_type": "station",
+          "arrival_time": 69.422,
+          "departure_time": 72.347,
+          "battery_after": 30.715,
+          "load_used": 10.0,
+          "recharge": {
+            "charge_added": 10.447,
+            "charger_mode": "super_fast",
+            "charging_time": 2.925,
+            "charging_cost": 12.537
+          }
+        },
+        {
+          "node_id": "C59",
+          "node_type": "customer",
+          "arrival_time": 91.661,
+          "departure_time": 101.661,
+          "battery_after": 11.402,
+          "load_used": 29.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S11",
+          "node_type": "station",
+          "arrival_time": 113.062,
+          "departure_time": 129.819,
+          "battery_after": 59.844,
+          "load_used": 29.0,
+          "recharge": {
+            "charge_added": 59.844,
+            "charger_mode": "super_fast",
+            "charging_time": 16.756,
+            "charging_cost": 71.813
+          }
+        },
+        {
+          "node_id": "C3",
+          "node_type": "customer",
+          "arrival_time": 184.564,
+          "departure_time": 194.564,
+          "battery_after": 5.099,
+          "load_used": 39.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S7",
+          "node_type": "station",
+          "arrival_time": 199.663,
+          "departure_time": 209.317,
+          "battery_after": 34.482,
+          "load_used": 39.0,
+          "recharge": {
+            "charge_added": 34.482,
+            "charger_mode": "super_fast",
+            "charging_time": 9.655,
+            "charging_cost": 41.378
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 243.799,
+          "departure_time": 243.799,
+          "battery_after": 0.0,
+          "load_used": 39.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 17,
+      "distance": 122.19528702594774,
+      "demand_served": 80.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C43",
+          "node_type": "customer",
+          "arrival_time": 38.079,
+          "departure_time": 48.079,
+          "battery_after": 41.611,
+          "load_used": 20.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C1",
+          "node_type": "customer",
+          "arrival_time": 78.079,
+          "departure_time": 171.0,
+          "battery_after": 11.611,
+          "load_used": 40.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C45",
+          "node_type": "customer",
+          "arrival_time": 176.831,
+          "departure_time": 186.831,
+          "battery_after": 5.78,
+          "load_used": 50.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S7",
+          "node_type": "station",
+          "arrival_time": 190.437,
+          "departure_time": 192.683,
+          "battery_after": 10.198,
+          "load_used": 50.0,
+          "recharge": {
+            "charge_added": 8.023,
+            "charger_mode": "super_fast",
+            "charging_time": 2.247,
+            "charging_cost": 9.628
+          }
+        },
+        {
+          "node_id": "C2",
+          "node_type": "customer",
+          "arrival_time": 197.782,
+          "departure_time": 207.782,
+          "battery_after": 5.099,
+          "load_used": 80.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S7",
+          "node_type": "station",
+          "arrival_time": 212.881,
+          "departure_time": 222.536,
+          "battery_after": 34.482,
+          "load_used": 80.0,
+          "recharge": {
+            "charge_added": 34.482,
+            "charger_mode": "super_fast",
+            "charging_time": 9.655,
+            "charging_cost": 41.378
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 257.018,
+          "departure_time": 257.018,
+          "battery_after": 0.0,
+          "load_used": 80.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 18,
+      "distance": 188.41071814556113,
+      "demand_served": 88.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C74",
+          "node_type": "customer",
+          "arrival_time": 36.056,
+          "departure_time": 46.056,
+          "battery_after": 43.634,
+          "load_used": 8.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C24",
+          "node_type": "customer",
+          "arrival_time": 64.737,
+          "departure_time": 74.737,
+          "battery_after": 24.953,
+          "load_used": 18.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S17",
+          "node_type": "station",
+          "arrival_time": 95.832,
+          "departure_time": 101.978,
+          "battery_after": 25.809,
+          "load_used": 18.0,
+          "recharge": {
+            "charge_added": 21.951,
+            "charger_mode": "super_fast",
+            "charging_time": 6.146,
+            "charging_cost": 26.341
+          }
+        },
+        {
+          "node_id": "C50",
+          "node_type": "customer",
+          "arrival_time": 124.182,
+          "departure_time": 134.182,
+          "battery_after": 3.606,
+          "load_used": 48.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S19",
+          "node_type": "station",
+          "arrival_time": 137.788,
+          "departure_time": 150.936,
+          "battery_after": 46.957,
+          "load_used": 48.0,
+          "recharge": {
+            "charge_added": 46.957,
+            "charger_mode": "super_fast",
+            "charging_time": 13.148,
+            "charging_cost": 56.349
+          }
+        },
+        {
+          "node_id": "C22",
+          "node_type": "customer",
+          "arrival_time": 188.949,
+          "departure_time": 198.949,
+          "battery_after": 8.944,
+          "load_used": 88.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S16",
+          "node_type": "station",
+          "arrival_time": 207.893,
+          "departure_time": 219.04,
+          "battery_after": 39.812,
+          "load_used": 88.0,
+          "recharge": {
+            "charge_added": 39.812,
+            "charger_mode": "super_fast",
+            "charging_time": 11.147,
+            "charging_cost": 47.774
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 258.853,
+          "departure_time": 258.853,
+          "battery_after": 0.0,
+          "load_used": 88.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 19,
+      "distance": 179.55557760551417,
+      "demand_served": 120.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C14",
+          "node_type": "customer",
+          "arrival_time": 35.355,
+          "departure_time": 45.355,
+          "battery_after": 44.335,
+          "load_used": 10.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C11",
+          "node_type": "customer",
+          "arrival_time": 51.186,
+          "departure_time": 61.186,
+          "battery_after": 38.504,
+          "load_used": 50.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C9",
+          "node_type": "customer",
+          "arrival_time": 66.571,
+          "departure_time": 76.571,
+          "battery_after": 33.119,
+          "load_used": 70.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S9",
+          "node_type": "station",
+          "arrival_time": 100.923,
+          "departure_time": 105.208,
+          "battery_after": 24.071,
+          "load_used": 70.0,
+          "recharge": {
+            "charge_added": 15.304,
+            "charger_mode": "super_fast",
+            "charging_time": 4.285,
+            "charging_cost": 18.365
+          }
+        },
+        {
+          "node_id": "C6",
+          "node_type": "customer",
+          "arrival_time": 122.208,
+          "departure_time": 132.208,
+          "battery_after": 7.071,
+          "load_used": 90.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S7",
+          "node_type": "station",
+          "arrival_time": 139.279,
+          "departure_time": 153.712,
+          "battery_after": 51.546,
+          "load_used": 90.0,
+          "recharge": {
+            "charge_added": 51.546,
+            "charger_mode": "super_fast",
+            "charging_time": 14.433,
+            "charging_cost": 61.856
+          }
+        },
+        {
+          "node_id": "C10",
+          "node_type": "customer",
+          "arrival_time": 195.772,
+          "departure_time": 205.772,
+          "battery_after": 9.487,
+          "load_used": 120.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S11",
+          "node_type": "station",
+          "arrival_time": 215.259,
+          "departure_time": 224.503,
+          "battery_after": 33.015,
+          "load_used": 120.0,
+          "recharge": {
+            "charge_added": 33.015,
+            "charger_mode": "super_fast",
+            "charging_time": 9.244,
+            "charging_cost": 39.618
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 257.518,
+          "departure_time": 257.518,
+          "battery_after": 0.0,
+          "load_used": 120.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 20,
+      "distance": 123.31408846051269,
+      "demand_served": 51.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C51",
+          "node_type": "customer",
+          "arrival_time": 33.541,
+          "departure_time": 43.541,
+          "battery_after": 46.149,
+          "load_used": 19.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C62",
+          "node_type": "customer",
+          "arrival_time": 61.569,
+          "departure_time": 71.569,
+          "battery_after": 28.121,
+          "load_used": 22.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S1",
+          "node_type": "station",
+          "arrival_time": 90.357,
+          "departure_time": 107.96,
+          "battery_after": 37.725,
+          "load_used": 22.0,
+          "recharge": {
+            "charge_added": 28.393,
+            "charger_mode": "fast",
+            "charging_time": 17.603,
+            "charging_cost": 31.232
+          }
+        },
+        {
+          "node_id": "C54",
+          "node_type": "customer",
+          "arrival_time": 127.658,
+          "departure_time": 180.0,
+          "battery_after": 18.028,
+          "load_used": 38.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S0",
+          "node_type": "station",
+          "arrival_time": 198.028,
+          "departure_time": 202.293,
+          "battery_after": 15.232,
+          "load_used": 38.0,
+          "recharge": {
+            "charge_added": 15.232,
+            "charger_mode": "super_fast",
+            "charging_time": 4.265,
+            "charging_cost": 18.278
+          }
+        },
+        {
+          "node_id": "C80",
+          "node_type": "customer",
+          "arrival_time": 209.908,
+          "departure_time": 219.908,
+          "battery_after": 7.616,
+          "load_used": 51.0,
+          "recharge": null
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 227.524,
+          "departure_time": 227.524,
+          "battery_after": 0.0,
+          "load_used": 51.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 21,
+      "distance": 176.32911546503544,
+      "demand_served": 35.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C60",
+          "node_type": "customer",
+          "arrival_time": 26.926,
+          "departure_time": 36.926,
+          "battery_after": 52.764,
+          "load_used": 17.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S0",
+          "node_type": "station",
+          "arrival_time": 63.852,
+          "departure_time": 67.467,
+          "battery_after": 38.752,
+          "load_used": 17.0,
+          "recharge": {
+            "charge_added": 12.913,
+            "charger_mode": "super_fast",
+            "charging_time": 3.616,
+            "charging_cost": 15.496
+          }
+        },
+        {
+          "node_id": "C67",
+          "node_type": "customer",
+          "arrival_time": 92.766,
+          "departure_time": 102.766,
+          "battery_after": 13.454,
+          "load_used": 26.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S1",
+          "node_type": "station",
+          "arrival_time": 116.219,
+          "departure_time": 122.939,
+          "battery_after": 24.0,
+          "load_used": 26.0,
+          "recharge": {
+            "charge_added": 24.0,
+            "charger_mode": "super_fast",
+            "charging_time": 6.72,
+            "charging_cost": 28.8
+          }
+        },
+        {
+          "node_id": "C93",
+          "node_type": "customer",
+          "arrival_time": 134.939,
+          "departure_time": 144.939,
+          "battery_after": 12.0,
+          "load_used": 29.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S1",
+          "node_type": "station",
+          "arrival_time": 156.939,
+          "departure_time": 168.335,
+          "battery_after": 40.699,
+          "load_used": 29.0,
+          "recharge": {
+            "charge_added": 40.699,
+            "charger_mode": "super_fast",
+            "charging_time": 11.396,
+            "charging_cost": 48.839
+          }
+        },
+        {
+          "node_id": "C95",
+          "node_type": "customer",
+          "arrival_time": 191.007,
+          "departure_time": 201.007,
+          "battery_after": 18.028,
+          "load_used": 35.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S15",
+          "node_type": "station",
+          "arrival_time": 219.034,
+          "departure_time": 224.362,
+          "battery_after": 19.026,
+          "load_used": 35.0,
+          "recharge": {
+            "charge_added": 19.026,
+            "charger_mode": "super_fast",
+            "charging_time": 5.327,
+            "charging_cost": 22.832
+          }
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 243.388,
+          "departure_time": 243.388,
+          "battery_after": 0.0,
+          "load_used": 35.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 22,
+      "distance": 148.20670854329381,
+      "demand_served": 63.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C100",
+          "node_type": "customer",
+          "arrival_time": 19.235,
+          "departure_time": 29.235,
+          "battery_after": 60.455,
+          "load_used": 3.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C70",
+          "node_type": "customer",
+          "arrival_time": 33.708,
+          "departure_time": 43.708,
+          "battery_after": 55.982,
+          "load_used": 26.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C53",
+          "node_type": "customer",
+          "arrival_time": 67.915,
+          "departure_time": 77.915,
+          "battery_after": 31.775,
+          "load_used": 31.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S0",
+          "node_type": "station",
+          "arrival_time": 97.915,
+          "departure_time": 104.029,
+          "battery_after": 33.61,
+          "load_used": 31.0,
+          "recharge": {
+            "charge_added": 21.835,
+            "charger_mode": "super_fast",
+            "charging_time": 6.114,
+            "charging_cost": 26.202
+          }
+        },
+        {
+          "node_id": "C94",
+          "node_type": "customer",
+          "arrival_time": 121.146,
+          "departure_time": 131.146,
+          "battery_after": 16.492,
+          "load_used": 54.0,
+          "recharge": null
+        },
+        {
+          "node_id": "S1",
+          "node_type": "station",
+          "arrival_time": 147.638,
+          "departure_time": 160.709,
+          "battery_after": 46.682,
+          "load_used": 54.0,
+          "recharge": {
+            "charge_added": 46.682,
+            "charger_mode": "super_fast",
+            "charging_time": 13.071,
+            "charging_cost": 56.019
+          }
+        },
+        {
+          "node_id": "C61",
+          "node_type": "customer",
+          "arrival_time": 191.58,
+          "departure_time": 201.58,
+          "battery_after": 15.811,
+          "load_used": 63.0,
+          "recharge": null
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 217.391,
+          "departure_time": 217.391,
+          "battery_after": 0.0,
+          "load_used": 63.0,
+          "recharge": null
+        }
+      ]
+    },
+    {
+      "route_id": 23,
+      "distance": 37.22854315746106,
+      "demand_served": 25.0,
+      "stops": [
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 0.0,
+          "departure_time": 0.0,
+          "battery_after": 79.69,
+          "load_used": 0.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C55",
+          "node_type": "customer",
+          "arrival_time": 14.142,
+          "departure_time": 24.142,
+          "battery_after": 65.548,
+          "load_used": 16.0,
+          "recharge": null
+        },
+        {
+          "node_id": "C98",
+          "node_type": "customer",
+          "arrival_time": 33.086,
+          "departure_time": 43.086,
+          "battery_after": 56.604,
+          "load_used": 25.0,
+          "recharge": null
+        },
+        {
+          "node_id": "D0",
+          "node_type": "depot",
+          "arrival_time": 57.229,
+          "departure_time": 57.229,
+          "battery_after": 42.461,
+          "load_used": 25.0,
+          "recharge": null
+        }
+      ]
+    }
+  ],
+  "unserved_customers": [],
+  "notes": []
+}
